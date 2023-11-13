@@ -3,7 +3,6 @@
 //
 
 #include "delivery.h"
-#include <iostream>
 #include <map>
 #include <string>
 
@@ -14,7 +13,6 @@ std::map<std::pair<int64_t, int64_t>, uint64_t> Delivery::deliver_packages(const
     std::pair<int64_t, int64_t> robo_coordinates{0, 0};
     std::pair<int64_t, int64_t> *current_coordinates;
     delivery_map[santa_coordinates] = 2;
-    std::cout << input << std::endl;
 
     for (size_t idx = 0; idx < input.length(); ++idx) {
 
