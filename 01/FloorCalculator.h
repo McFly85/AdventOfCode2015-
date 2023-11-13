@@ -8,10 +8,11 @@
 #include <cstdint>
 #include <string>
 
-namespace FloorCalculator{
+namespace FloorCalculator {
 
-int64_t calculate_floor(const std::string &input);
-size_t calculate_position(const std::string &input, int64_t floor_break);
+    int64_t calculate_floor(const std::string &input);
+
+    size_t calculate_position(const std::string &input, int64_t floor_break);
 
 
 }

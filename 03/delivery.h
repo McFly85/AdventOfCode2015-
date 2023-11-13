@@ -4,12 +4,13 @@
 
 #ifndef DELIVERY_H
 #define DELIVERY_H
+
 #include <cstdint>
 #include <map>
 #include <string>
 
 namespace Delivery {
-    std::map<std::pair<int64_t, int64_t>, uint64_t> deliver_packages(std::string input);
+    std::map<std::pair<int64_t, int64_t>, uint64_t> deliver_packages(const std::string &input);
 
 }
 

@@ -10,7 +10,7 @@
 
 namespace AdventHelper {
     //std::unique_ptr<std::vector<std::string>> get_input_vector(const std::string& filename);
-    std::vector<std::string> get_input_vector(const std::string& filename);
+    std::vector<std::string> get_input_vector(const std::string &filename);
 }
 
 #endif //ADVENT_HELPER_H
